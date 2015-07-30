@@ -1,0 +1,26 @@
+//
+//  XQZhiRiBaoPrefixHeader.pch
+//  值日报
+//
+//  Created by 格式化油条 on 15/7/16.
+//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//
+
+#ifndef ____XQZhiRiBaoPrefixHeader_pch
+#define ____XQZhiRiBaoPrefixHeader_pch
+
+#import <UITableView+FDTemplateLayoutCell.h>
+#import <MJExtension.h>
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <MJRefresh.h>
+#import "NSString+XQ.h"
+
+
+#ifdef DEBUG
+#define XQLog(...) NSLog(__VA_ARGS__)
+#else
+#define XQLog(...)
+#endif
+
+#endif

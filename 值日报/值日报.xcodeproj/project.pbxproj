@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28830A9A1B588DCE004FF93A /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28830A991B588DCE004FF93A /* Reveal.framework */; };
+		28830AA01B58AC52004FF93A /* XQSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28830A9F1B58AC52004FF93A /* XQSearchViewController.m */; };
+		289740021B578DA000035D99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740011B578DA000035D99 /* main.m */; };
+		289740071B578DA000035D99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289740061B578DA000035D99 /* Images.xcassets */; };
+		2897400A1B578DA000035D99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289740081B578DA000035D99 /* LaunchScreen.xib */; };
+		289740161B578DA000035D99 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740151B578DA000035D99 /* ___Tests.m */; };
+		289740341B578E4400035D99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897402D1B578E4400035D99 /* AppDelegate.m */; };
+		289740371B578EB300035D99 /* XQZhiRiBaoTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740361B578EB300035D99 /* XQZhiRiBaoTabBarController.m */; };
+		289740431B578F7800035D99 /* XQZhiRiBaoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740421B578F7800035D99 /* XQZhiRiBaoNavigationController.m */; };
+		2897404D1B57A51100035D99 /* NSDate+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897404C1B57A51100035D99 /* NSDate+WX.m */; };
+		289740511B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740501B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		289740551B57F10700035D99 /* XQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740541B57F10700035D99 /* XQBaseTableViewController.m */; };
+		2897405B1B5806F200035D99 /* XQForeignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897405A1B5806F200035D99 /* XQForeignViewController.m */; };
+		2897405E1B58075A00035D99 /* XQDomesticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897405D1B58075A00035D99 /* XQDomesticViewController.m */; };
+		289740611B5807E400035D99 /* XQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740601B5807E400035D99 /* XQBaseModel.m */; };
+		289740641B58083600035D99 /* XQBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 289740631B58083600035D99 /* XQBaseCell.m */; };
+		28CEDF9D1B5966E9001A7D57 /* NSString+XQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CEDF9C1B5966E9001A7D57 /* NSString+XQ.m */; };
+		B297FA154E6A5024DFF8389E /* libPods-值日报.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CEC064E1668D344D56FD8F /* libPods-值日报.a */; };
+		C22E6F811B63AC8A00542FFB /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = C22E6F801B63AC8A00542FFB /* NSArray+Log.m */; };
+		C22E6F851B63ADC300542FFB /* XQWebviewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22E6F841B63ADC300542FFB /* XQWebviewControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289740101B578DA000035D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28973FF41B578D9F00035D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28973FFB1B578D9F00035D99;
+			remoteInfo = "值日报";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24200A713E70B063DD3FF3FB /* Pods-值日报.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-值日报.debug.xcconfig"; path = "Pods/Target Support Files/Pods-值日报/Pods-值日报.debug.xcconfig"; sourceTree = "<group>"; };
+		28830A991B588DCE004FF93A /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		28830A9E1B58AC52004FF93A /* XQSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQSearchViewController.h; sourceTree = "<group>"; };
+		28830A9F1B58AC52004FF93A /* XQSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQSearchViewController.m; sourceTree = "<group>"; };
+		28973FFC1B578DA000035D99 /* 值日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "值日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		289740001B578DA000035D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289740011B578DA000035D99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		289740061B578DA000035D99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		289740091B578DA000035D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2897400F1B578DA000035D99 /* 值日报Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "值日报Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		289740141B578DA000035D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289740151B578DA000035D99 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		2897402C1B578E4400035D99 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2897402D1B578E4400035D99 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		289740351B578EB300035D99 /* XQZhiRiBaoTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQZhiRiBaoTabBarController.h; sourceTree = "<group>"; };
+		289740361B578EB300035D99 /* XQZhiRiBaoTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQZhiRiBaoTabBarController.m; sourceTree = "<group>"; };
+		289740411B578F7800035D99 /* XQZhiRiBaoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQZhiRiBaoNavigationController.h; sourceTree = "<group>"; };
+		289740421B578F7800035D99 /* XQZhiRiBaoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQZhiRiBaoNavigationController.m; sourceTree = "<group>"; };
+		2897404B1B57A51100035D99 /* NSDate+WX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WX.h"; sourceTree = "<group>"; };
+		2897404C1B57A51100035D99 /* NSDate+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WX.m"; sourceTree = "<group>"; };
+		2897404F1B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		289740501B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		289740521B57E7BD00035D99 /* XQZhiRiBaoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQZhiRiBaoPrefixHeader.pch; sourceTree = "<group>"; };
+		289740531B57F10700035D99 /* XQBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQBaseTableViewController.h; sourceTree = "<group>"; };
+		289740541B57F10700035D99 /* XQBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQBaseTableViewController.m; sourceTree = "<group>"; };
+		289740591B5806F200035D99 /* XQForeignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQForeignViewController.h; sourceTree = "<group>"; };
+		2897405A1B5806F200035D99 /* XQForeignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQForeignViewController.m; sourceTree = "<group>"; };
+		2897405C1B58075A00035D99 /* XQDomesticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQDomesticViewController.h; sourceTree = "<group>"; };
+		2897405D1B58075A00035D99 /* XQDomesticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQDomesticViewController.m; sourceTree = "<group>"; };
+		2897405F1B5807E400035D99 /* XQBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQBaseModel.h; sourceTree = "<group>"; };
+		289740601B5807E400035D99 /* XQBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQBaseModel.m; sourceTree = "<group>"; };
+		289740621B58083600035D99 /* XQBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQBaseCell.h; sourceTree = "<group>"; };
+		289740631B58083600035D99 /* XQBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQBaseCell.m; sourceTree = "<group>"; };
+		28CEDF9B1B5966E9001A7D57 /* NSString+XQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XQ.h"; sourceTree = "<group>"; };
+		28CEDF9C1B5966E9001A7D57 /* NSString+XQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XQ.m"; sourceTree = "<group>"; };
+		62F03112B1CC14295E1B7E74 /* Pods-值日报.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-值日报.release.xcconfig"; path = "Pods/Target Support Files/Pods-值日报/Pods-值日报.release.xcconfig"; sourceTree = "<group>"; };
+		97CEC064E1668D344D56FD8F /* libPods-值日报.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-值日报.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22E6F7F1B63AC8A00542FFB /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		C22E6F801B63AC8A00542FFB /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		C22E6F831B63ADC300542FFB /* XQWebviewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQWebviewControllerViewController.h; sourceTree = "<group>"; };
+		C22E6F841B63ADC300542FFB /* XQWebviewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQWebviewControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28973FF91B578D9F00035D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B297FA154E6A5024DFF8389E /* libPods-值日报.a in Frameworks */,
+				28830A9A1B588DCE004FF93A /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2897400C1B578DA000035D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F32CE5E296996714710DE31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24200A713E70B063DD3FF3FB /* Pods-值日报.debug.xcconfig */,
+				62F03112B1CC14295E1B7E74 /* Pods-值日报.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FFD0521FE6BDC88693FAD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97CEC064E1668D344D56FD8F /* libPods-值日报.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28973FF31B578D9F00035D99 = {
+			isa = PBXGroup;
+			children = (
+				28973FFE1B578DA000035D99 /* 值日报 */,
+				289740121B578DA000035D99 /* 值日报Tests */,
+				28973FFD1B578DA000035D99 /* Products */,
+				0F32CE5E296996714710DE31 /* Pods */,
+				0FFD0521FE6BDC88693FAD65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28973FFD1B578DA000035D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28973FFC1B578DA000035D99 /* 值日报.app */,
+				2897400F1B578DA000035D99 /* 值日报Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28973FFE1B578DA000035D99 /* 值日报 */ = {
+			isa = PBXGroup;
+			children = (
+				C22E6F821B63AD9800542FFB /* WebViewControlller */,
+				C22E6F7E1B63AC8A00542FFB /* Log */,
+				2897401F1B578E4400035D99 /* classes */,
+				28973FFF1B578DA000035D99 /* Supporting Files */,
+			);
+			path = "值日报";
+			sourceTree = "<group>";
+		};
+		28973FFF1B578DA000035D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28830A991B588DCE004FF93A /* Reveal.framework */,
+				289740061B578DA000035D99 /* Images.xcassets */,
+				289740081B578DA000035D99 /* LaunchScreen.xib */,
+				289740001B578DA000035D99 /* Info.plist */,
+				289740011B578DA000035D99 /* main.m */,
+				289740521B57E7BD00035D99 /* XQZhiRiBaoPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		289740121B578DA000035D99 /* 值日报Tests */ = {
+			isa = PBXGroup;
+			children = (
+				289740151B578DA000035D99 /* ___Tests.m */,
+				289740131B578DA000035D99 /* Supporting Files */,
+			);
+			path = "值日报Tests";
+			sourceTree = "<group>";
+		};
+		289740131B578DA000035D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289740141B578DA000035D99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2897401F1B578E4400035D99 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				289740301B578E4400035D99 /* search(搜索) */,
+				289740201B578E4400035D99 /* Domestic(国内) */,
+				289740241B578E4400035D99 /* Foreign(国外) */,
+				289740281B578E4400035D99 /* main(主要) */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		289740201B578E4400035D99 /* Domestic(国内) */ = {
+			isa = PBXGroup;
+			children = (
+				289740211B578E4400035D99 /* controller */,
+				289740221B578E4400035D99 /* model */,
+				289740231B578E4400035D99 /* view */,
+			);
+			path = "Domestic(国内)";
+			sourceTree = "<group>";
+		};
+		289740211B578E4400035D99 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2897405C1B58075A00035D99 /* XQDomesticViewController.h */,
+				2897405D1B58075A00035D99 /* XQDomesticViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		289740221B578E4400035D99 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		289740231B578E4400035D99 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		289740241B578E4400035D99 /* Foreign(国外) */ = {
+			isa = PBXGroup;
+			children = (
+				289740251B578E4400035D99 /* controller */,
+				289740261B578E4400035D99 /* model */,
+				289740271B578E4400035D99 /* view */,
+			);
+			path = "Foreign(国外)";
+			sourceTree = "<group>";
+		};
+		289740251B578E4400035D99 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				289740591B5806F200035D99 /* XQForeignViewController.h */,
+				2897405A1B5806F200035D99 /* XQForeignViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		289740261B578E4400035D99 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		289740271B578E4400035D99 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		289740281B578E4400035D99 /* main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				289740291B578E4400035D99 /* controller */,
+				2897402A1B578E4400035D99 /* model */,
+				2897402B1B578E4400035D99 /* other */,
+				2897402F1B578E4400035D99 /* view */,
+			);
+			path = "main(主要)";
+			sourceTree = "<group>";
+		};
+		289740291B578E4400035D99 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				289740351B578EB300035D99 /* XQZhiRiBaoTabBarController.h */,
+				289740361B578EB300035D99 /* XQZhiRiBaoTabBarController.m */,
+				289740411B578F7800035D99 /* XQZhiRiBaoNavigationController.h */,
+				289740421B578F7800035D99 /* XQZhiRiBaoNavigationController.m */,
+				289740531B57F10700035D99 /* XQBaseTableViewController.h */,
+				289740541B57F10700035D99 /* XQBaseTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2897402A1B578E4400035D99 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2897405F1B5807E400035D99 /* XQBaseModel.h */,
+				289740601B5807E400035D99 /* XQBaseModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2897402B1B578E4400035D99 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				2897402E1B578E4400035D99 /* lib */,
+				2897404A1B57A50100035D99 /* categroy */,
+				2897402C1B578E4400035D99 /* AppDelegate.h */,
+				2897402D1B578E4400035D99 /* AppDelegate.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		2897402E1B578E4400035D99 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2897404E1B57CC4B00035D99 /* FDFullscreenPopGesture */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2897402F1B578E4400035D99 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				289740621B58083600035D99 /* XQBaseCell.h */,
+				289740631B58083600035D99 /* XQBaseCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		289740301B578E4400035D99 /* search(搜索) */ = {
+			isa = PBXGroup;
+			children = (
+				289740311B578E4400035D99 /* controller */,
+				289740321B578E4400035D99 /* model */,
+				289740331B578E4400035D99 /* view */,
+			);
+			path = "search(搜索)";
+			sourceTree = "<group>";
+		};
+		289740311B578E4400035D99 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				28830A9E1B58AC52004FF93A /* XQSearchViewController.h */,
+				28830A9F1B58AC52004FF93A /* XQSearchViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		289740321B578E4400035D99 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		289740331B578E4400035D99 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2897404A1B57A50100035D99 /* categroy */ = {
+			isa = PBXGroup;
+			children = (
+				2897404B1B57A51100035D99 /* NSDate+WX.h */,
+				2897404C1B57A51100035D99 /* NSDate+WX.m */,
+				28CEDF9B1B5966E9001A7D57 /* NSString+XQ.h */,
+				28CEDF9C1B5966E9001A7D57 /* NSString+XQ.m */,
+			);
+			path = categroy;
+			sourceTree = "<group>";
+		};
+		2897404E1B57CC4B00035D99 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				2897404F1B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.h */,
+				289740501B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		C22E6F7E1B63AC8A00542FFB /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				C22E6F7F1B63AC8A00542FFB /* NSArray+Log.h */,
+				C22E6F801B63AC8A00542FFB /* NSArray+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		C22E6F821B63AD9800542FFB /* WebViewControlller */ = {
+			isa = PBXGroup;
+			children = (
+				C22E6F831B63ADC300542FFB /* XQWebviewControllerViewController.h */,
+				C22E6F841B63ADC300542FFB /* XQWebviewControllerViewController.m */,
+			);
+			name = WebViewControlller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28973FFB1B578D9F00035D99 /* 值日报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289740191B578DA000035D99 /* Build configuration list for PBXNativeTarget "值日报" */;
+			buildPhases = (
+				1B28D8A76CA7E7D6BD6459A4 /* Check Pods Manifest.lock */,
+				28973FF81B578D9F00035D99 /* Sources */,
+				28973FF91B578D9F00035D99 /* Frameworks */,
+				28973FFA1B578D9F00035D99 /* Resources */,
+				C1D77B7FC8315ED5B47D276C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "值日报";
+			productName = "值日报";
+			productReference = 28973FFC1B578DA000035D99 /* 值日报.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2897400E1B578DA000035D99 /* 值日报Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2897401C1B578DA000035D99 /* Build configuration list for PBXNativeTarget "值日报Tests" */;
+			buildPhases = (
+				2897400B1B578DA000035D99 /* Sources */,
+				2897400C1B578DA000035D99 /* Frameworks */,
+				2897400D1B578DA000035D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289740111B578DA000035D99 /* PBXTargetDependency */,
+			);
+			name = "值日报Tests";
+			productName = "值日报Tests";
+			productReference = 2897400F1B578DA000035D99 /* 值日报Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28973FF41B578D9F00035D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "格式化油条";
+				TargetAttributes = {
+					28973FFB1B578D9F00035D99 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2897400E1B578DA000035D99 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 28973FFB1B578D9F00035D99;
+					};
+				};
+			};
+			buildConfigurationList = 28973FF71B578D9F00035D99 /* Build configuration list for PBXProject "值日报" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28973FF31B578D9F00035D99;
+			productRefGroup = 28973FFD1B578DA000035D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28973FFB1B578D9F00035D99 /* 值日报 */,
+				2897400E1B578DA000035D99 /* 值日报Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28973FFA1B578D9F00035D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2897400A1B578DA000035D99 /* LaunchScreen.xib in Resources */,
+				289740071B578DA000035D99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2897400D1B578DA000035D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B28D8A76CA7E7D6BD6459A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D77B7FC8315ED5B47D276C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-值日报/Pods-值日报-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28973FF81B578D9F00035D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22E6F851B63ADC300542FFB /* XQWebviewControllerViewController.m in Sources */,
+				289740611B5807E400035D99 /* XQBaseModel.m in Sources */,
+				C22E6F811B63AC8A00542FFB /* NSArray+Log.m in Sources */,
+				289740551B57F10700035D99 /* XQBaseTableViewController.m in Sources */,
+				289740341B578E4400035D99 /* AppDelegate.m in Sources */,
+				28CEDF9D1B5966E9001A7D57 /* NSString+XQ.m in Sources */,
+				289740021B578DA000035D99 /* main.m in Sources */,
+				289740511B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				2897405E1B58075A00035D99 /* XQDomesticViewController.m in Sources */,
+				2897404D1B57A51100035D99 /* NSDate+WX.m in Sources */,
+				289740431B578F7800035D99 /* XQZhiRiBaoNavigationController.m in Sources */,
+				2897405B1B5806F200035D99 /* XQForeignViewController.m in Sources */,
+				28830AA01B58AC52004FF93A /* XQSearchViewController.m in Sources */,
+				289740641B58083600035D99 /* XQBaseCell.m in Sources */,
+				289740371B578EB300035D99 /* XQZhiRiBaoTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2897400B1B578DA000035D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289740161B578DA000035D99 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289740111B578DA000035D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28973FFB1B578D9F00035D99 /* 值日报 */;
+			targetProxy = 289740101B578DA000035D99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		289740081B578DA000035D99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289740091B578DA000035D99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289740171B578DA000035D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		289740181B578DA000035D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2897401A1B578DA000035D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24200A713E70B063DD3FF3FB /* Pods-值日报.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/值日报",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/值日报/XQZhiRiBaoPrefixHeader.pch";
+				INFOPLIST_FILE = "值日报/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-值日报-MJExtension\"",
+					"-l\"Pods-值日报-MJRefresh\"",
+					"-l\"Pods-值日报-Masonry\"",
+					"-l\"Pods-值日报-SDWebImage\"",
+					"-l\"Pods-值日报-UITableView+FDTemplateLayoutCell\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2897401B1B578DA000035D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F03112B1CC14295E1B7E74 /* Pods-值日报.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/值日报",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/值日报/XQZhiRiBaoPrefixHeader.pch";
+				INFOPLIST_FILE = "值日报/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-值日报-MJExtension\"",
+					"-l\"Pods-值日报-MJRefresh\"",
+					"-l\"Pods-值日报-Masonry\"",
+					"-l\"Pods-值日报-SDWebImage\"",
+					"-l\"Pods-值日报-UITableView+FDTemplateLayoutCell\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2897401D1B578DA000035D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "值日报Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/值日报.app/值日报";
+			};
+			name = Debug;
+		};
+		2897401E1B578DA000035D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "值日报Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/值日报.app/值日报";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28973FF71B578D9F00035D99 /* Build configuration list for PBXProject "值日报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289740171B578DA000035D99 /* Debug */,
+				289740181B578DA000035D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289740191B578DA000035D99 /* Build configuration list for PBXNativeTarget "值日报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2897401A1B578DA000035D99 /* Debug */,
+				2897401B1B578DA000035D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2897401C1B578DA000035D99 /* Build configuration list for PBXNativeTarget "值日报Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2897401D1B578DA000035D99 /* Debug */,
+				2897401E1B578DA000035D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28973FF41B578D9F00035D99 /* Project object */;
+}

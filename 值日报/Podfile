@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target '值日报' do
+pod 'MJExtension', '~> 2.5.0'
+pod 'Masonry', '~> 0.6.2'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.3'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'MJRefresh', '~> 2.2.1'
+
+end
+
+target '值日报Tests' do
+
+end
+
