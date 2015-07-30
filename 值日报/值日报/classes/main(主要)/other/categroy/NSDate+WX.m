@@ -2,8 +2,8 @@
 //  NSDate+WX.m
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/16.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
 #import "NSDate+WX.h"

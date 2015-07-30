@@ -1,14 +1,14 @@
 //
-//  NSString+XQ.m
+//  NSString+HW.m
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/18.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/18.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
 #import "NSString+XQ.h"
 
-@implementation NSString (XQ)
+@implementation NSString (HW)
 - (NSString *)stringToUTF8Encoding {
     
     NSMutableString *string = [NSMutableString stringWithFormat:@""];

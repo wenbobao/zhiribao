@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XQZhiRiBaoTabBarController.h"
+#import "HWZhiRiBaoTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -23,7 +23,7 @@
     
     [self.window makeKeyAndVisible];
     
-    self.window.rootViewController = [[XQZhiRiBaoTabBarController alloc] init];
+    self.window.rootViewController = [[HWZhiRiBaoTabBarController alloc] init];
     
     return YES;
 }

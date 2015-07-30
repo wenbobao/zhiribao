@@ -1,18 +1,18 @@
 //
-//  XQZhiRiBaoTabBarController.m
+//  HWZhiRiBaoTabBarController.m
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/16.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQZhiRiBaoTabBarController.h"
-#import "XQSearchViewController.h"
-#import "XQDomesticViewController.h"
+#import "HWZhiRiBaoTabBarController.h"
+#import "HWSearchViewController.h"
+#import "HWDomesticViewController.h"
 #import "XQForeignViewController.h"
-#import "XQZhiRiBaoNavigationController.h"
+#import "HWZhiRiBaoNavigationController.h"
 
-@interface XQZhiRiBaoTabBarController ()
+@interface HWZhiRiBaoTabBarController ()
 
 /**
  *  当前选中的item
@@ -21,7 +21,7 @@
 
 @end
 
-@implementation XQZhiRiBaoTabBarController
+@implementation HWZhiRiBaoTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,7 +40,7 @@
 #pragma mark - 创建子控制器
 - (void) setupViewController {
     
-    XQDomesticViewController *domesticViewController = [[XQDomesticViewController alloc] init];
+    HWDomesticViewController *domesticViewController = [[HWDomesticViewController alloc] init];
     //默认选择
     self.selectTabBarItem = domesticViewController.navigationController.tabBarItem;
     [self setupChildViewController:domesticViewController title:@"首页" imageName:@"home"];
@@ -49,7 +49,7 @@
     
     [self setupChildViewController:foreignViewController title:@"国外" imageName:@"foreign"];
     
-    XQSearchViewController *searchViewController = [[XQSearchViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    HWSearchViewController *searchViewController = [[HWSearchViewController alloc] initWithStyle:UITableViewStyleGrouped];
     
     [self setupChildViewController:searchViewController title:@"搜索" imageName:@"search"];
     
@@ -62,7 +62,7 @@
     
     viewController.tabBarItem.image = [UIImage imageNamed:imageName];
     
-    XQZhiRiBaoNavigationController *zhiRiBaoNavigationController = [[XQZhiRiBaoNavigationController alloc] initWithRootViewController:viewController];
+    HWZhiRiBaoNavigationController *zhiRiBaoNavigationController = [[HWZhiRiBaoNavigationController alloc] initWithRootViewController:viewController];
     
     [self addChildViewController:zhiRiBaoNavigationController];
     

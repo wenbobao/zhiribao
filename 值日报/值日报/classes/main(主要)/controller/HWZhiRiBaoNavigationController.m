@@ -1,23 +1,22 @@
 //
-//  XQForeignViewController.m
+//  HWZhiRiBaoNavigationController.m
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/16.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQForeignViewController.h"
+#import "HWZhiRiBaoNavigationController.h"
 
-@interface XQForeignViewController ()
+@interface HWZhiRiBaoNavigationController ()
 
 @end
 
-@implementation XQForeignViewController
+@implementation HWZhiRiBaoNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    [self setupDataWithUrlString:@"http://www.zhiribao.com/api/v1/products?foreign=us&offset=10&page=1"];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

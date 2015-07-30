@@ -1,21 +1,21 @@
 //
-//  XQBaseTableViewController.m
+//  HWBaseTableViewController.h
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/16.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQBaseTableViewController.h"
+#import "HWBaseTableViewController.h"
 
-#import "XQWebviewControllerViewController.h"
-#import "XQZhiRiBaoTabBarController.h"
-#import "XQZhiRiBaoNavigationController.h"
-#import "XQBaseCell.h"
-#import "XQBaseModel.h"
+#import "HWWebviewControllerViewController.h"
+#import "HWZhiRiBaoTabBarController.h"
+#import "HWZhiRiBaoNavigationController.h"
+#import "HWBaseCell.h"
+#import "HWBaseModel.h"
 
 static NSString *cellIdentifier = @"baseCell";
-@interface XQBaseTableViewController ()
+@interface HWBaseTableViewController ()
 
 /**
  *  保存子控制器传来的urlString
@@ -24,17 +24,17 @@ static NSString *cellIdentifier = @"baseCell";
 
 @end
 
-@implementation XQBaseTableViewController
+@implementation HWBaseTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     // 注册cellReuseIdentifier
-    [self.tableView registerClass:[XQBaseCell class] forCellReuseIdentifier:cellIdentifier];
+    [self.tableView registerClass:[HWBaseCell class] forCellReuseIdentifier:cellIdentifier];
 
     [self setupHeaderRefreshing];
     
-    XQZhiRiBaoTabBarController *tabbar = (XQZhiRiBaoTabBarController *)self.navigationController.tabBarController;
+    HWZhiRiBaoTabBarController *tabbar = (HWZhiRiBaoTabBarController *)self.navigationController.tabBarController;
     __weak typeof(self) Wself = self;
 //    tabbar.domestic_block = ^{
 //    
@@ -117,7 +117,7 @@ static NSString *cellIdentifier = @"baseCell";
         NSDictionary *commodityDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
         
 //        XQLog(@"%@",commodityDictionary[@"data"]);
-        NSArray *dataArray = [XQBaseModel objectArrayWithKeyValuesArray:commodityDictionary[@"data"]];
+        NSArray *dataArray = [HWBaseModel objectArrayWithKeyValuesArray:commodityDictionary[@"data"]];
         
           [self.data addObjectsFromArray:dataArray];
         
@@ -153,7 +153,7 @@ static NSString *cellIdentifier = @"baseCell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    XQBaseCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    HWBaseCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     [self setupModelWithCell:cell indexPath:indexPath];
     
@@ -161,7 +161,7 @@ static NSString *cellIdentifier = @"baseCell";
 }
 
 #pragma mark - 给对应indexPath的cell模型赋值
-- (void) setupModelWithCell:(XQBaseCell *) cell indexPath:(NSIndexPath *) indexPath {
+- (void) setupModelWithCell:(HWBaseCell *) cell indexPath:(NSIndexPath *) indexPath {
     
     cell.fd_enforceFrameLayout = NO;
     
@@ -170,7 +170,7 @@ static NSString *cellIdentifier = @"baseCell";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    return [tableView fd_heightForCellWithIdentifier:cellIdentifier cacheByIndexPath:indexPath configuration:^(XQBaseCell *cell) {
+    return [tableView fd_heightForCellWithIdentifier:cellIdentifier cacheByIndexPath:indexPath configuration:^(HWBaseCell *cell) {
         
         [self setupModelWithCell:cell indexPath:indexPath];
     }];
@@ -180,7 +180,7 @@ static NSString *cellIdentifier = @"baseCell";
 {
     
     
-    XQWebviewControllerViewController *webVc = [[XQWebviewControllerViewController alloc] init];
+    HWWebviewControllerViewController *webVc = [[HWWebviewControllerViewController alloc] init];
     webVc.model = self.data[indexPath.row];
     
     [self.navigationController pushViewController:webVc animated:YES];

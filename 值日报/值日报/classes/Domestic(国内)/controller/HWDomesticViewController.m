@@ -1,27 +1,27 @@
 //
-//  XQDomesticViewController.m
+//  HWWebviewControllerViewController.h
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/25.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQDomesticViewController.h"
-#import "XQZhiRiBaoTabBarController.h"
-#import "XQWebviewControllerViewController.h"
+#import "HWDomesticViewController.h"
+#import "HWZhiRiBaoTabBarController.h"
+#import "HWWebviewControllerViewController.h"
 
-@interface XQDomesticViewController ()
+@interface HWDomesticViewController ()
 
 @end
 
-@implementation XQDomesticViewController
+@implementation HWDomesticViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     [self setupDataWithUrlString:@"http://www.zhiribao.com/api/v1/products?offset=10&page=1"];
     
-    XQZhiRiBaoTabBarController *tabbar = (XQZhiRiBaoTabBarController *)self.navigationController.tabBarController;
+    HWZhiRiBaoTabBarController *tabbar = (HWZhiRiBaoTabBarController *)self.navigationController.tabBarController;
     __weak typeof(self) Wself = self;
     tabbar.domestic_block = ^{
         

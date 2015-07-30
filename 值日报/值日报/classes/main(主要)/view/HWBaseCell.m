@@ -1,15 +1,15 @@
 //
-//  XQBaseCell.m
+//  HWBaseCell.m
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/16.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQBaseCell.h"
-#import "XQBaseModel.h"
+#import "HWBaseCell.h"
+#import "HWBaseModel.h"
 #define kLabelFont [UIFont systemFontOfSize:15]
-@interface XQBaseCell ()
+@interface HWBaseCell ()
 
 /**
  *  图片
@@ -33,7 +33,7 @@
 
 @end
 
-@implementation XQBaseCell
+@implementation HWBaseCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     
@@ -122,7 +122,7 @@
 }
 
 #pragma mark - 给控件属性赋值
-- (void)setBaseModel:(XQBaseModel *)baseModel {
+- (void)setBaseModel:(HWBaseModel *)baseModel {
     
     _baseModel = baseModel;
     

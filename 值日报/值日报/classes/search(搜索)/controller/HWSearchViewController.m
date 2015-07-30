@@ -1,16 +1,16 @@
 //
-//  XQSearchViewController.m
+//  HWBaseTableViewController.h
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/17.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/25.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQSearchViewController.h"
+#import "HWSearchViewController.h"
 
-#import "XQWebviewControllerViewController.h"
+#import "HWWebviewControllerViewController.h"
 
-@interface XQSearchViewController () <UISearchBarDelegate>
+@interface HWSearchViewController () <UISearchBarDelegate>
 
 /**
  *  搜索的内容
@@ -22,7 +22,7 @@
 @property (strong, nonatomic) UISearchBar *searchBar;
 @end
 
-@implementation XQSearchViewController
+@implementation HWSearchViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -153,7 +153,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    XQWebviewControllerViewController *webVc = [[XQWebviewControllerViewController alloc] init];
+    HWWebviewControllerViewController *webVc = [[HWWebviewControllerViewController alloc] init];
     webVc.model = self.data[indexPath.row];
     
     [self.navigationController pushViewController:webVc animated:YES];

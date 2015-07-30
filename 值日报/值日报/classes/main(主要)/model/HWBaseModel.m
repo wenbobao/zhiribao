@@ -1,18 +1,18 @@
 //
-//  XQBaseModel.m
+//  HWBaseModel.m
 //  值日报
 //
-//  Created by 格式化油条 on 15/7/16.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/16.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQBaseModel.h"
+#import "HWBaseModel.h"
 #import "NSDate+WX.h"
 
-@implementation XQBaseModel
+@implementation HWBaseModel
 - (NSString *)created_at {
     
-    //    2015-07-16 16:12:11
+    //    2014-07-16 16:12:11
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
     

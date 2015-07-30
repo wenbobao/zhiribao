@@ -1,21 +1,21 @@
 //
-//  XQWebviewControllerViewController.m
+//  HWWebviewControllerViewController.h
 //  值日报
 //
-//  Created by 崇庆旭 on 15/7/25.
-//  Copyright (c) 2015年 格式化油条. All rights reserved.
+//  Created by 黄伟 on 14/7/25.
+//  Copyright (c) 2014年 黄伟. All rights reserved.
 //
 
-#import "XQWebviewControllerViewController.h"
-#import "XQBaseModel.h"
+#import "HWWebviewControllerViewController.h"
+#import "HWBaseModel.h"
 
-@interface XQWebviewControllerViewController () <UIWebViewDelegate>
+@interface HWWebviewControllerViewController () <UIWebViewDelegate>
 
 @property (nonatomic,strong) UIWebView *webView;
 
 @end
 
-@implementation XQWebviewControllerViewController
+@implementation HWWebviewControllerViewController
 
 - (void)loadView
 {
