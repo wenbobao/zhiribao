@@ -9,7 +9,7 @@
 #import "HWZhiRiBaoTabBarController.h"
 #import "HWSearchViewController.h"
 #import "HWDomesticViewController.h"
-#import "XQForeignViewController.h"
+#import "HWForeignViewController.h"
 #import "HWZhiRiBaoNavigationController.h"
 
 @interface HWZhiRiBaoTabBarController ()
@@ -45,7 +45,7 @@
     self.selectTabBarItem = domesticViewController.navigationController.tabBarItem;
     [self setupChildViewController:domesticViewController title:@"首页" imageName:@"home"];
     
-    XQForeignViewController *foreignViewController = [[XQForeignViewController alloc] init];
+    HWForeignViewController *foreignViewController = [[HWForeignViewController alloc] init];
     
     [self setupChildViewController:foreignViewController title:@"国外" imageName:@"foreign"];
     
@@ -76,7 +76,7 @@
         
        
         if (self.domestic_block) {
-             XQLog(@"国内");
+             HWLog(@"国内");
             self.domestic_block();
         }
     }else if (self.selectTabBarItem == item && [item.title isEqualToString:@"国外"])

@@ -122,7 +122,7 @@ static NSString *cellIdentifier = @"baseCell";
           [self.data addObjectsFromArray:dataArray];
         
         if (error) {
-            XQLog(@"解析错误---%@",error);
+            HWLog(@"解析错误---%@",error);
         }
         
         dispatch_async(dispatch_get_main_queue(), ^{

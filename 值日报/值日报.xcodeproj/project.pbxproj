@@ -62,7 +62,7 @@
 		2897404C1B57A51100035D99 /* NSDate+WX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WX.m"; sourceTree = "<group>"; };
 		2897404F1B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		289740501B57CC4B00035D99 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		289740521B57E7BD00035D99 /* XQZhiRiBaoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQZhiRiBaoPrefixHeader.pch; sourceTree = "<group>"; };
+		289740521B57E7BD00035D99 /* HWZhiRiBaoPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWZhiRiBaoPrefixHeader.pch; sourceTree = "<group>"; };
 		289740531B57F10700035D99 /* HWBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWBaseTableViewController.h; sourceTree = "<group>"; };
 		289740541B57F10700035D99 /* HWBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBaseTableViewController.m; sourceTree = "<group>"; };
 		289740591B5806F200035D99 /* HWForeignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWForeignViewController.h; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 				289740081B578DA000035D99 /* LaunchScreen.xib */,
 				289740001B578DA000035D99 /* Info.plist */,
 				289740011B578DA000035D99 /* main.m */,
-				289740521B57E7BD00035D99 /* XQZhiRiBaoPrefixHeader.pch */,
+				289740521B57E7BD00035D99 /* HWZhiRiBaoPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -659,7 +659,7 @@
 					"$(PROJECT_DIR)/值日报",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "${SRCROOT}/值日报/XQZhiRiBaoPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "${SRCROOT}/值日报/HWZhiRiBaoPrefixHeader.pch";
 				INFOPLIST_FILE = "值日报/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -696,7 +696,7 @@
 					"$(PROJECT_DIR)/值日报",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "${SRCROOT}/值日报/XQZhiRiBaoPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "${SRCROOT}/值日报/HWZhiRiBaoPrefixHeader.pch";
 				INFOPLIST_FILE = "值日报/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (

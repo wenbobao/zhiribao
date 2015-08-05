@@ -18,9 +18,9 @@
 
 
 #ifdef DEBUG
-#define XQLog(...) NSLog(__VA_ARGS__)
+#define HWLog(...) NSLog(__VA_ARGS__)
 #else
-#define XQLog(...)
+#define HWLog(...)
 #endif
 
 #endif

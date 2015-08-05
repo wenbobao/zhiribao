@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64349522-55D5-42DA-8EC0-E8671F5627F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>值日报</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD4594C001E5316C0805A3B0765B6A496D723F29</key>
+		<string>https://github.com/huangWay/zhiribao.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>值日报/值日报.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD4594C001E5316C0805A3B0765B6A496D723F29</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huangWay/zhiribao.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD4594C001E5316C0805A3B0765B6A496D723F29</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD4594C001E5316C0805A3B0765B6A496D723F29</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E5%80%BC%E6%97%A5%E6%8A%A5</string>
+		</dict>
+	</array>
+</dict>
+</plist>

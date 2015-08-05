@@ -35,7 +35,7 @@
     webView.backgroundColor = [UIColor whiteColor];
     
     NSURL *url = [NSURL URLWithString:self.model.source_link];
-     XQLog(@"url %@",url);
+    
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
     
     [webView loadRequest:urlRequest];
@@ -65,11 +65,9 @@
 //    UIWebView *webView = (UIWebView *)self.webView;
 //    self.webView = webView;
 //    webView.delegate = self ;
-//    
-//    
+//
 //    NSURL *url = [NSURL URLWithString:self.model.source_link];
-//    
-//    XQLog(@"url %@",url);
+//
 //    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
 //    
 //    [webView loadRequest:urlRequest];
@@ -77,10 +75,7 @@
     
 }
 
-- (void)webViewDidStartLoad:(UIWebView *)webView
-{
-    
-}
+
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
